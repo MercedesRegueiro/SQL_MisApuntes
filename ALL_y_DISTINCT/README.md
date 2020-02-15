@@ -7,17 +7,13 @@ Se escribe así: WHERE <i>campo</i> <= ALL (<br/>
 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp)<br/>
 <br/>
 Ejemplo:<br/>
-SELECT campo1, campo2<br/>
-FROM tabla1<br/>
-WHERE campo2< ALL(<br/>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSELECT campo2<br/>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspFROM tabla1<br/>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspWHERE campo1= ‘valor1’<br/>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp)
+<img src="../imagenes/ALL1.PNG">
+<img src="../imagenes/ALL2.PNG">
 <br/>
 <br/>
 <h1><b>Operador DISTINCT</b></h1>
 Este operador permite eliminar duplicados en la consulta<br/>
 Se escribe así: SELECT DISTINCT <i>campo</i><br/>
-Ejemplo: SELECT DISTINCT campo4<br/>
-FROM tabla1
+Ejemplo: 
+<img src="../imagenes/DISTINCT1.PNG">
+<img src="../imagenes/DISTINCT2.PNG">
