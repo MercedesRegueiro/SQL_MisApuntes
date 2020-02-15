@@ -3,9 +3,8 @@ Este operador devuelve aquellos registros que coincidan con un modelo de expresi
 Se escribe así: <i>campo</i> LIKE <i>modelo</i><br/>
 <br/>
 Ejemplo:<br/>
-SELECT campo1, campo2<br/>
-FROM tabla1<br/>
-WHERE campo1 LIKE ‘%#’; <b>(Termina con un digito)</b>
+<img src="../imagenes/LIKE1.PNG">
+<img src="../imagenes/LIKE2.PNG">
 <br/>
 <h3><b>Patrones para LIKE</b></h3>
 
@@ -16,9 +15,8 @@ Este operador combina o junta dos o más cadenas.<br/>
 Se escribe así: CONCAT (<i>valor1, valor2</i>[<i>,valorN</i>])<br/>
 <br/>
 Ejemplo:<br/>
-SELECT campo1, campo3<br/>
-FROM tabla 1<br/>
-WHERE campo3 = CONCAT (campo1, ‘ es un’, ‘ ejemplo’);
+<img src="../imagenes/CONCAT1.PNG">
+<img src="../imagenes/CONCAT2.PNG">
 <br/>
 <br/>
 <h1><b>Operador AS</b></h1>
@@ -26,6 +24,5 @@ Este operador renombra el campo.<br/>
 Se escribe así: AS <i>‘nuevoNombre’</i><br/>
 <br/>
 Ejemplo:<br/>
-SELECT campo2, campo1 AS ‘ejemplo’<br/>
-FROM tabla1<br/>
-WHERE campo1 LIKE ‘%’;
+<img src="../imagenes/AS1.PNG">
+<img src="../imagenes/AS2.PNG">
