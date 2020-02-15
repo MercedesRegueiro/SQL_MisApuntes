@@ -11,3 +11,6 @@ Se escribe así: FROM <i>tabla1</i> JOIN <i>tabla2</i> ON <i>tabla1.campo1</i>=<
 <h1><b>Operador ON</b></h1>
 Este operador se usa para enlazar dos tablas.<br/>
 Se escrobe así. FROM <i>tabla1</i> JOIN <i>tabla2</i> ON <i>tabla1.campo1</i>=<i>tabla2.campo1</i>; <b>(Siempre y cuando sean los mismo el campo 1 de una tabla y otra)</b><br/>
+Ejemplo (JOIN y ON):<br/>
+<img src="../imagenes/JOINON1.PNG">
+<img src="../imagenes/JOINON2.PNG">
