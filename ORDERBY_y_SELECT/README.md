@@ -14,4 +14,3 @@ Se escribe igual que la estructura basica pero detro del where.<br/>
 Ejemplo:<br/>
 <img src="../imagenes/SELECT1.PNG">
 <img src="../imagenes/SELECT2.PNG">
-)
